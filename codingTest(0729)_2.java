@@ -82,12 +82,12 @@ public class Solution {
             String id = userMap.get(record[i].split(" ")[1]);
             switch(record[i].charAt(0)) {
                 case 'E':
-                    id += " 님이 들어왔습니다.";
+                    id += "님이 들어왔습니다.";
                     arr.add(id);
 
                     break;
                 case 'L':
-                    id += " 님이 나갔습니다.";
+                    id += "님이 나갔습니다.";
                     arr.add(id);
                     break;
             }
